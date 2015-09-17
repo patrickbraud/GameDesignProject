@@ -4,12 +4,14 @@ using System.Collections;
 public class CameraController : MonoBehaviour {
 
 	public GameObject player;
-	public float xMin, xMax, yMin, yMax;
+	public GameObject background;
+
+	private float xMin, xMax, yMin, yMax;
 	
 	private Vector3 offset;
 
-	public float mapX;
-	public float mapY;
+	private float mapX = 50.0f;
+	private float mapY = 25.0f;
 
 
 	
@@ -21,10 +23,10 @@ public class CameraController : MonoBehaviour {
 		float vertExtent = Camera.main.orthographicSize;
 		float horzExtent = vertExtent * Screen.width / Screen.height;
 
-//		xMin = (float)(horzExtent - mapX / 2.0);
-//		xMax = (float)(mapX / 2.0 - horzExtent);
-//		yMin = (float)(vertExtent - mapY / 2.0);
-//		yMax = (float)(mapY / 2.0 - vertExtent);
+		xMin = (float)(horzExtent - mapX / 2.0);
+		xMax = (float)(mapX / 2.0 - horzExtent);
+		yMin = (float)(vertExtent - mapY / 2.0);
+		yMax = (float)(mapY / 2.0 - vertExtent);
 	}
 
 	
@@ -32,9 +34,9 @@ public class CameraController : MonoBehaviour {
 	{
 		transform.position = player.transform.position + offset;
 
-		Vector3 v2 = transform.position;
-		v2.x = Mathf.Clamp(v2.x, xMin, xMax);
-		v2.y = Mathf.Clamp(v2.y, yMin, yMax);
-		transform.position = v2 + offset;
+		Vector3 v3 = player.transform.position;
+		v3.x = Mathf.Clamp(v3.x, xMin, xMax);
+		v3.y = Mathf.Clamp(v3.y, yMin, yMax);
+		transform.position = v3 + offset;
 	}
 }
