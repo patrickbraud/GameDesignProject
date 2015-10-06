@@ -1,0 +1,39 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon(TM) HD 6620G (ID=0x9641)
+    Vendor:   ATI
+    VRAM:     493 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.078 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Esib\Documents\GameDesignProject-9376c91bcaec2145597e10228d5687f8fcacb7d9\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.3)_network_Data\Managed\System.dll (this message is harmless)
+MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+JSON Response: [[UnityEngine.Networking.Match.CreateMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x0010000000006530,nodeId:0x3EB9,usingRelay:True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.064309 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 248.
+Total: 0.507149 ms (FindLiveObjects: 0.035263 ms CreateObjectMapping: 0.008976 ms MarkObjects: 0.445599 ms  DeleteObjects: 0.009617 ms)
+
