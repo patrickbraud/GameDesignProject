@@ -64,8 +64,10 @@ public class GUIOptions : MonoBehaviour
 	void Update()
 	{
 		//If escape key pressed
-		if(Input.GetKeyDown(KeyCode.Escape))
-			SetOptionsVisible(!SR.enabled);
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			Cursor.visible = true;
+			SetOptionsVisible (!SR.enabled);
+		}
 	}
 	//--------------------------------------------------------------
 }

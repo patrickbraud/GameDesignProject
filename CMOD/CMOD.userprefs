@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUIObjects\GUIOptions.cs">
     <Files>
-      <File FileName="Assets\Scripts\Manager\GameManager.cs" Line="94" Column="3" />
-      <File FileName="Assets\Scripts\GUIObjects\GUIOptions.cs" Line="35" Column="26" />
+      <File FileName="Assets\Scripts\GUIObjects\GUIOptions.cs" Line="70" Column="4" />
+      <File FileName="Assets\Scripts\Manager\GameManager.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
