@@ -1,6 +1,44 @@
 fileFormatVersion: 2
 guid: 844e35d4987ecc44b8238abf3f54e8e3
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: spr_dollar
+    21300002: spr_drone_attack
+    21300004: spr_drone_neutral
+    21300006: spr_drone_run_01
+    21300008: spr_drone_run_02
+    21300010: 'spr_drone_run_03                                                                                                       '
+    21300012: 'spr_drone_run_04                                                                                            '
+    21300014: spr_boss_attack
+    21300016: spr_boss_neutral
+    21300018: spr_boss_run01
+    21300020: spr_boss_run02
+    21300022: spr_boss_run03
+    21300024: spr_boss_run04
+    21300026: spr_toughguy_attack
+    21300028: spr_toughguy_neutral
+    21300030: spr_toughguy_run01
+    21300032: spr_toughguy_run02
+    21300034: spr_boss_run03
+    21300036: spr_boss_run04
+    21300038: spr_punch_01
+    21300040: spr_punch_02
+    21300042: spr_punch_03
+    21300044: spr_punch_04
+    21300046: spr_gun_01
+    21300048: spr_gun_02
+    21300050: spr_gun_03
+    21300052: spr_Burger
+    21300054: spr_White
+    21300056: spr_Black
+    21300058: spr_upgrade_weapon
+    21300060: spr_mission_failed
+    21300062: spr_mission_complete
+    21300064: spr_ammocount
+    21300066: spr_health
+    21300068: 'spr_options                                         '
+    21300070: spr_menu
+    21300072: spr_ammo
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -19,6 +57,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 4096
@@ -29,12 +70,14 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 200
   alphaIsTransparency: 1
   textureType: 5
@@ -50,6 +93,7 @@ TextureImporter:
         height: 211
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_drone_attack
       rect:
         serializedVersion: 2
@@ -59,6 +103,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .49000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_drone_neutral
       rect:
         serializedVersion: 2
@@ -68,6 +113,7 @@ TextureImporter:
         height: 470
       alignment: 9
       pivot: {x: .49000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_drone_run_01
       rect:
         serializedVersion: 2
@@ -77,6 +123,7 @@ TextureImporter:
         height: 470
       alignment: 9
       pivot: {x: .49000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_drone_run_02
       rect:
         serializedVersion: 2
@@ -86,6 +133,7 @@ TextureImporter:
         height: 470
       alignment: 9
       pivot: {x: .49000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: 'spr_drone_run_03                                                                                                       '
       rect:
         serializedVersion: 2
@@ -95,6 +143,7 @@ TextureImporter:
         height: 470
       alignment: 9
       pivot: {x: .49000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: 'spr_drone_run_04                                                                                            '
       rect:
         serializedVersion: 2
@@ -104,6 +153,7 @@ TextureImporter:
         height: 470
       alignment: 9
       pivot: {x: .49000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_attack
       rect:
         serializedVersion: 2
@@ -113,6 +163,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .507000029, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_neutral
       rect:
         serializedVersion: 2
@@ -122,6 +173,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .507000029, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_run01
       rect:
         serializedVersion: 2
@@ -131,6 +183,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .507000029, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_run02
       rect:
         serializedVersion: 2
@@ -140,6 +193,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .507000029, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_run03
       rect:
         serializedVersion: 2
@@ -149,6 +203,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .507000029, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_run04
       rect:
         serializedVersion: 2
@@ -158,6 +213,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .507000029, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_toughguy_attack
       rect:
         serializedVersion: 2
@@ -167,6 +223,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_toughguy_neutral
       rect:
         serializedVersion: 2
@@ -176,6 +233,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_toughguy_run01
       rect:
         serializedVersion: 2
@@ -185,6 +243,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_toughguy_run02
       rect:
         serializedVersion: 2
@@ -194,6 +253,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_run03
       rect:
         serializedVersion: 2
@@ -203,6 +263,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_boss_run04
       rect:
         serializedVersion: 2
@@ -212,6 +273,7 @@ TextureImporter:
         height: 512
       alignment: 9
       pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_punch_01
       rect:
         serializedVersion: 2
@@ -221,6 +283,7 @@ TextureImporter:
         height: 313
       alignment: 9
       pivot: {x: .372999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_punch_02
       rect:
         serializedVersion: 2
@@ -230,6 +293,7 @@ TextureImporter:
         height: 337
       alignment: 9
       pivot: {x: .372999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_punch_03
       rect:
         serializedVersion: 2
@@ -239,6 +303,7 @@ TextureImporter:
         height: 436
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_punch_04
       rect:
         serializedVersion: 2
@@ -248,6 +313,7 @@ TextureImporter:
         height: 564
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_gun_01
       rect:
         serializedVersion: 2
@@ -257,6 +323,7 @@ TextureImporter:
         height: 434
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_gun_02
       rect:
         serializedVersion: 2
@@ -266,6 +333,7 @@ TextureImporter:
         height: 508
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_gun_03
       rect:
         serializedVersion: 2
@@ -275,6 +343,7 @@ TextureImporter:
         height: 681
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_Burger
       rect:
         serializedVersion: 2
@@ -284,6 +353,7 @@ TextureImporter:
         height: 303
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_White
       rect:
         serializedVersion: 2
@@ -293,6 +363,7 @@ TextureImporter:
         height: 16
       alignment: 1
       pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_Black
       rect:
         serializedVersion: 2
@@ -302,6 +373,7 @@ TextureImporter:
         height: 81
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_upgrade_weapon
       rect:
         serializedVersion: 2
@@ -311,6 +383,7 @@ TextureImporter:
         height: 68
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_mission_failed
       rect:
         serializedVersion: 2
@@ -320,6 +393,7 @@ TextureImporter:
         height: 221
       alignment: 1
       pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_mission_complete
       rect:
         serializedVersion: 2
@@ -329,6 +403,7 @@ TextureImporter:
         height: 222
       alignment: 7
       pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_ammocount
       rect:
         serializedVersion: 2
@@ -338,6 +413,7 @@ TextureImporter:
         height: 116
       alignment: 3
       pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_health
       rect:
         serializedVersion: 2
@@ -347,6 +423,7 @@ TextureImporter:
         height: 111
       alignment: 1
       pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: 'spr_options                                         '
       rect:
         serializedVersion: 2
@@ -356,6 +433,7 @@ TextureImporter:
         height: 78
       alignment: 2
       pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_menu
       rect:
         serializedVersion: 2
@@ -365,6 +443,7 @@ TextureImporter:
         height: 549
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: spr_ammo
       rect:
         serializedVersion: 2
@@ -374,5 +453,8 @@ TextureImporter:
         height: 67
       alignment: 0
       pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
