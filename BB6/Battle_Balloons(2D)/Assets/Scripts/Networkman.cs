@@ -13,7 +13,7 @@ public class Networkman : NetworkManager
 	private int NumberofPlayers = 0;
 	private NetworkMatch networkMatch;
 
-
+	public GameObject startMenu;
 
 	
 	void Update()
@@ -31,12 +31,16 @@ public class Networkman : NetworkManager
 
 	public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
 	{
+
 		if (NumberofPlayers == 0) 
 		{
 			var player = (GameObject)GameObject.Instantiate (Player1, new Vector3(-21,8,0), Quaternion.identity);
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player1);
-			NumberofPlayers++;
+			NumberofPlayers++; 
+
+			startMenu.SetActive(false);
+
 		} 
 
 		else if (NumberofPlayers == 1) {
@@ -44,6 +48,7 @@ public class Networkman : NetworkManager
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player2);
 			NumberofPlayers++;
+
 		}
 
 		else if (NumberofPlayers == 2) {
@@ -51,6 +56,7 @@ public class Networkman : NetworkManager
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player3);
 			NumberofPlayers++;
+
 		}
 
 		else if (NumberofPlayers == 3) {
@@ -58,6 +64,7 @@ public class Networkman : NetworkManager
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player4);
 			NumberofPlayers++;
+
 		}
 	}
 
