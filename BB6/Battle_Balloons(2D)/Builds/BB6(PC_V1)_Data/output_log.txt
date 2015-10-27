@@ -17,7 +17,7 @@ Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign
 Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.061 seconds
+- Completed reload, in  0.040 seconds
 desktop: 1920x1080 60Hz; virtual: 3360x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -39,51 +39,51 @@ MatchMakingClient Join :https://mm.unet.unity3d.com/json/reply/JoinMatchRequest
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-JSON Response: [[UnityEngine.Networking.Match.JoinMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x001000000000DFCC,nodeId:0x29F0,usingRelay:True
+JSON Response: [[UnityEngine.Networking.Match.JoinMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x001000000000DFEA,nodeId:0x2A12,usingRelay:True
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.415006 ms
+UnloadTime: 3.254923 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 277.
-Total: 0.311386 ms (FindLiveObjects: 0.021071 ms CreateObjectMapping: 0.009365 ms MarkObjects: 0.242319 ms  DeleteObjects: 0.035118 ms)
+Total: 0.309630 ms (FindLiveObjects: 0.028387 ms CreateObjectMapping: 0.008487 ms MarkObjects: 0.236173 ms  DeleteObjects: 0.034826 ms)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1fd34 -> priority: 1 
-Did not find target for sync message for 8
+  Thread -> id: 2bf38 -> priority: 1 
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Did not find target for sync message for 8
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 

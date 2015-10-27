@@ -15,7 +15,7 @@ public class Networkman : NetworkManager
 
 	public GameObject startMenu;
 
-	
+
 	void Update()
 	{
 		if(networkMatch == null)
@@ -85,7 +85,7 @@ public class Networkman : NetworkManager
 
 	void HideMenu(){
 
-		startMenu.SetActive (false);
+
 
 	}
 }

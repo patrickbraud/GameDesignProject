@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="..\BB6\Battle_Balloons(2D)\Assets\Scripts\CameraController.cs">
     <Files>
-      <File FileName="..\BB6\Battle_Balloons(2D)\Assets\Scripts\CameraController.cs" Line="49" Column="14" />
+      <File FileName="..\BB6\Battle_Balloons(2D)\Assets\Scripts\Networkman.cs" Line="88" Column="3" />
+      <File FileName="..\BB6\Battle_Balloons(2D)\Assets\Scripts\CameraController.cs" Line="33" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

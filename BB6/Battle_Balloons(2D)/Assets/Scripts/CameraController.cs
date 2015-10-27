@@ -30,6 +30,7 @@ public class CameraController : NetworkBehaviour {
 		xMax = (float)(mapX / 2.0 - horzExtent);
 		yMin = (float)(vertExtent - mapY / 2.0);
 		yMax = (float)(mapY / 2.0 - vertExtent);
+
 	}
 
 	
