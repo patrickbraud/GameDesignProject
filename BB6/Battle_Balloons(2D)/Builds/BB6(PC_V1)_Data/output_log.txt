@@ -1,0 +1,39 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     1985 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.068 seconds
+desktop: 1920x1080 60Hz; virtual: 3360x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\System.dll (this message is harmless)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.393922 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 335.
+Total: 0.316068 ms (FindLiveObjects: 0.020485 ms CreateObjectMapping: 0.008779 ms MarkObjects: 0.279486 ms  DeleteObjects: 0.003219 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.600238 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 276.
+Total: 0.254025 ms (FindLiveObjects: 0.021071 ms CreateObjectMapping: 0.006731 ms MarkObjects: 0.196079 ms  DeleteObjects: 0.029558 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 22f08 -> priority: 1 

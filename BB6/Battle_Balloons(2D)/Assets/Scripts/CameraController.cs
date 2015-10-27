@@ -46,7 +46,7 @@ public class CameraController : NetworkBehaviour {
 
 			Vector3 newV = transform.position;
 
-			newV.z = -2.5f;
+			newV.z = 1f;
 			newV.x = Mathf.Clamp (newV.x, xMin, xMax);
 			newV.y = Mathf.Clamp (newV.y, yMin, yMax);
 
