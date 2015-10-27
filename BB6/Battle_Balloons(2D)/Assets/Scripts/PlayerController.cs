@@ -12,10 +12,18 @@ public class PlayerController : NetworkBehaviour {
 	public float jumpSpeed;
 	public float jumpCooldown;
 
+	public float CD_Remaining = 0;
 
+	private Text cdText;
+	private Text cdHolder;
+	
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody2D> ();
+
+		cdText = GameObject.FindGameObjectWithTag ("CooldownUI").GetComponent<Text> ();
+
+		cdText.text = "Jump: " + CD_Remaining.ToString("0.0");
 	}
 
 
@@ -25,6 +33,14 @@ public class PlayerController : NetworkBehaviour {
 		if (isLocalPlayer)
 		{
 			InputMovement ();
+		}
+
+		if (CD_Remaining > 0) {
+			CD_Remaining -= Time.deltaTime;
+
+			if(CD_Remaining < 0.0f)
+				CD_Remaining = 0.0f;
+			cdText.text = "Jump: " + CD_Remaining.ToString("0.0");
 		}
 	}
 
@@ -47,6 +63,7 @@ public class PlayerController : NetworkBehaviour {
 		if (timeStamp <= Time.time) {
 			rb.AddForce (Vector2.up * jumpSpeed);
 			timeStamp = Time.time + jumpCooldown;
+			CD_Remaining = jumpCooldown;
 		}
 	}
 }

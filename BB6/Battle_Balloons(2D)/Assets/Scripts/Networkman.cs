@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEditor;
 using System.Collections;
 using UnityEngine.Networking;
 using UnityEngine.Networking.Match;
@@ -24,6 +25,12 @@ public class Networkman : NetworkManager
 
 	void Update()
 	{
+		if (string.Equals (Application.loadedLevelName.ToString (), "Main")) {
+			HideMenu ();
+		} else {
+			CG.alpha = 1;
+		}
+
 		if(networkMatch == null)
 		{
 			var nm = GetComponent<NetworkMatch>();
@@ -45,7 +52,9 @@ public class Networkman : NetworkManager
 			ClientScene.RegisterPrefab(Player1);
 			NumberofPlayers++; 
 
-			HideMenu();
+
+			//HideMenu();
+
 
 		} 
 
