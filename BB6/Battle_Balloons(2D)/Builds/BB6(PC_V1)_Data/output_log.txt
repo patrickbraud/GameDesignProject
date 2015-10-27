@@ -17,23 +17,73 @@ Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign
 Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.068 seconds
+- Completed reload, in  0.061 seconds
 desktop: 1920x1080 60Hz; virtual: 3360x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Patrick\Desktop\-Senior 2014-2015\Fall 2015 - Senior\GameDesign2\_GitBuilds\GameDesignProject\BB6\Battle_Balloons(2D)\Builds\BB6(PC_V1)_Data\Managed\System.dll (this message is harmless)
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.393922 ms
+Failed to read the ID for the match maker, please set the Cloud Project ID string in the Player Settings (see https://unet.cloud.unity3d.com).
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 335.
-Total: 0.316068 ms (FindLiveObjects: 0.020485 ms CreateObjectMapping: 0.008779 ms MarkObjects: 0.279486 ms  DeleteObjects: 0.003219 ms)
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.600238 ms
+JSON Response: [[UnityEngine.Networking.Match.ListMatchResponse]-success:True-extendedInfo:]-matches.Count:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 276.
-Total: 0.254025 ms (FindLiveObjects: 0.021071 ms CreateObjectMapping: 0.006731 ms MarkObjects: 0.196079 ms  DeleteObjects: 0.029558 ms)
+MatchMakingClient Join :https://mm.unet.unity3d.com/json/reply/JoinMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+JSON Response: [[UnityEngine.Networking.Match.JoinMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x001000000000DFCC,nodeId:0x29F0,usingRelay:True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.415006 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 277.
+Total: 0.311386 ms (FindLiveObjects: 0.021071 ms CreateObjectMapping: 0.009365 ms MarkObjects: 0.242319 ms  DeleteObjects: 0.035118 ms)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 22f08 -> priority: 1 
+  Thread -> id: 1fd34 -> priority: 1 
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Did not find target for sync message for 8
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+

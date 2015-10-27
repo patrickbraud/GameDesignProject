@@ -32,39 +32,47 @@ public class Networkman : NetworkManager
 	public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
 	{
 
-		if (NumberofPlayers == 0) 
-		{
+		if (NumberofPlayers == 0){
+
 			var player = (GameObject)GameObject.Instantiate (Player1, new Vector3(-21,8,0), Quaternion.identity);
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player1);
 			NumberofPlayers++; 
 
-			startMenu.SetActive(false);
+			HideMenu();
 
 		} 
 
 		else if (NumberofPlayers == 1) {
+
 			var player = (GameObject)GameObject.Instantiate (Player2, new Vector3(21,8,0), Quaternion.identity);
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player2);
 			NumberofPlayers++;
 
+			HideMenu();
+
 		}
 
 		else if (NumberofPlayers == 2) {
+
 			var player = (GameObject)GameObject.Instantiate (Player3, new Vector3(-21,-8,0), Quaternion.identity);
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player3);
 			NumberofPlayers++;
 
+
+			HideMenu();
 		}
 
 		else if (NumberofPlayers == 3) {
+
 			var player = (GameObject)GameObject.Instantiate (Player4, new Vector3(21,-8,0), Quaternion.identity);
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player4);
 			NumberofPlayers++;
 
+			HideMenu();
 		}
 	}
 
@@ -73,5 +81,11 @@ public class Networkman : NetworkManager
 	{
 		NetworkServer.DestroyPlayersForConnection(conn);
 		NumberofPlayers--;
+	}
+
+	void HideMenu(){
+
+		startMenu.SetActive (false);
+
 	}
 }
