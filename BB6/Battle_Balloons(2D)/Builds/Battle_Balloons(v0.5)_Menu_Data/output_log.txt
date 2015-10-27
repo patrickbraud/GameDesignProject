@@ -1,0 +1,60 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon(TM) HD 6620G (ID=0x9641)
+    Vendor:   ATI
+    VRAM:     493 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.311 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\System.dll (this message is harmless)
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon(TM) HD 6620G (ID=0x9641)
+    Vendor:   ATI
+    VRAM:     493 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.149 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Esib\Downloads\Cy Game Design\GameDesignProject-master\BB4\Battle_Balloons(2D)\Builds\Battle_Balloons(v0.5)_Menu_Data\Managed\System.dll (this message is harmless)
+Log: connection {2} has been disconnected by timeout; address {::ffff:127.0.0.1:64323}
+aissp: time {83862} lastRecTime {81828} DisTme {2000}, rtt {0} 
+ 
+(Filename:  Line: 1845)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:64322}
+aissp: time {88515} lastRecTime {86484} DisTme {2000}, rtt {0} 
+ 
+(Filename:  Line: 1845)
+
