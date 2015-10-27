@@ -14,6 +14,12 @@ public class Networkman : NetworkManager
 	private NetworkMatch networkMatch;
 
 	public GameObject startMenu;
+	public CanvasGroup CG;
+
+	void Start(){
+
+		CG = startMenu.GetComponent<CanvasGroup> ();
+	}
 
 
 	void Update()
@@ -44,24 +50,25 @@ public class Networkman : NetworkManager
 		} 
 
 		else if (NumberofPlayers == 1) {
-
+			CG.alpha = 1f;
 			var player = (GameObject)GameObject.Instantiate (Player2, new Vector3(21,8,0), Quaternion.identity);
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player2);
 			NumberofPlayers++;
 
+			CG.alpha = 0f;
 			HideMenu();
 
 		}
 
 		else if (NumberofPlayers == 2) {
-
+			CG.alpha = 1f;
 			var player = (GameObject)GameObject.Instantiate (Player3, new Vector3(-21,-8,0), Quaternion.identity);
 			NetworkServer.AddPlayerForConnection (conn, player, playerControllerId);
 			ClientScene.RegisterPrefab(Player3);
 			NumberofPlayers++;
 
-
+			CG.alpha = 0f;
 			HideMenu();
 		}
 
@@ -85,7 +92,6 @@ public class Networkman : NetworkManager
 
 	void HideMenu(){
 
-
-
+		CG.alpha = 0f;
 	}
 }
